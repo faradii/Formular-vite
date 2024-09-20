@@ -1,6 +1,7 @@
 {
   "name": "formular",
   "private": true,
+  "homepage": "https:faradii.github.io/Formular-vite/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
