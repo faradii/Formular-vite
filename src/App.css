@@ -1,0 +1,20 @@
+.App div {
+  border: 1px solid #ddd; /* Leichterer Rahmen für die Bildschirmdarstellung */
+  padding: 10px; /* Innenabstand hinzufügen, falls gewünscht */
+}
+
+@media print {
+  @page {
+    size: A4 landscape; /* Setzt Seitengröße auf A4 im Querformat */
+    margin: 10mm;
+  }
+
+  .App div {
+    width: 297mm;
+    height: 210mm;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
